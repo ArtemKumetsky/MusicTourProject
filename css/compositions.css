@@ -1,0 +1,107 @@
+.compositions-content {
+    width: 60%;
+    margin: 100px auto 0 auto;
+}
+.compositions-module {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.compositions-left-block {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    background-color: #f5f6f6;
+}
+.compositions-release-info {
+    padding: 40px 0 0 40px;
+    width: 65%;
+}
+.compositions-about {
+    width: 85%;
+    margin-top: 30px;
+    padding: 0 0 40px 40px;
+
+}
+.compositions-footer, .compositions-footer-stats {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.compositions-footer-stats {
+    width: 55%;
+}
+.compositions-footer-stats span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999999;
+}
+.compositions-btn {
+    border: 1px solid #636363;
+    background: transparent;
+}
+.compositions-right-block {
+    width: 50%;
+    position: relative;
+}
+.compositions-right-block-icons {
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 90%;
+}
+.compositions-right-block-icons .white-line {
+    width: 35%;
+    border: 1px solid white;
+}
+.compositions-right-block-icons .circle {
+    border-radius: 100%;
+    background: white;
+    width: 10px;
+    height: 10px;
+}
+.compositions-right-block-icons .dark-line {
+    border: 1px solid #707070;
+    width: 45%;
+}
+.compositions-right-block-icons .time {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.compositions-right-block-icons .time:nth-child(odd) {
+    margin-left: 4%;
+}
+.compositions-right-block-icons .time-dark{
+    color: #8f8f8f;
+}
+
+
+
+.compositions-module:not(.compositions-module-first) {
+    margin-top: 50px;
+}
+.compositions-module-first .compositions-right-block {
+    background: url("../images/compositions/composition1_cover.png") center no-repeat;
+    background-size: cover;
+}
+.compositions-module-second {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+.compositions-module-second .white-line, .compositions-module-third .white-line {
+    width: 100%;
+}
+.compositions-module-second .compositions-right-block {
+    background: url("../images/compositions/composition2_cover.png") center no-repeat;
+    background-size: cover;
+}
+.compositions-module-third .compositions-right-block {
+    background: url("../images/compositions/composition3_cover.png") center no-repeat;
+    background-size: cover;
+}

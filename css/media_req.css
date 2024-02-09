@@ -1,0 +1,213 @@
+@media (max-width: 1280px) {
+    .header-content {
+        width: 95%;
+    }
+    .discography-container {
+        height: 1800px;
+    }
+    .template-title {
+        width: 60%;
+    }
+    .compositions-content, .new-cards {
+        width: 80%;
+    }
+    .history-container {
+        min-height: 1000px;
+    }
+    .history-date-container hr {
+        width: 4%;
+    }
+    .contact-content {
+        right: 10%;
+    }
+}
+@media (max-width: 1024px) {
+    .discography-container {
+        height: 1920px;
+    }
+    .tours-content {
+        bottom: 10%;
+    }
+    .compositions-content, .new-cards {
+        width: 100%;
+    }
+    .history-date-container span {
+        font-size: 24px;
+    }
+}
+@media (max-width: 768px) {
+    .header-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        height: auto;
+    }
+    .header-content a {
+        padding: 5px;
+    }
+    .discography-content {
+        width: 95%;
+    }
+    .template-title {
+        width: 100%;
+        text-align: center;
+    }
+    .compositions-module {
+        flex-flow: column;
+    }
+    .compositions-left-block, .compositions-right-block {
+        width: 100%;
+    }
+    .compositions-about {
+        padding: 0 40px 20px 40px;
+    }
+    .compositions-footer {
+        align-items: center;
+    }
+    .compositions-right-block {
+        height: 400px;
+    }
+    .tracks-container {
+        height: 570px;
+    }
+    .new-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    .upcoming-events-container {
+        width: 100%;
+        align-items: center;
+    }
+    .upcoming-events-container .template-title {
+        align-items: center;
+    }
+    .upcoming-events-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .history-date-container hr {
+        margin: 0 10px;
+    }
+    .contact-title {
+        align-items: center;
+    }
+}
+@media (max-width: 480px) {
+    .header-content {
+        display: none;
+    }
+    .discography-element {
+        flex-direction: column;
+    }
+    .discography-element-left {
+        padding: 15px 0;
+        width: 100%;
+    }
+    .discography-element-right {
+        width: 100%;
+    }
+    .tours-content {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .tours-release-info {
+        width: 100%;
+    }
+    .tours-about {
+        width: 100%;
+        align-items: center;
+    }
+    .compositions-title h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+    .tracks-content {
+        width: 70%;
+    }
+    .new-cards {
+        grid-template-columns: 1fr;
+    }
+    .history-date-container span {
+        font-size: 20px;
+    }
+    .history-date-container hr {
+        width: 10px;
+        margin: 0 7px;
+    }
+    .contact-content {
+        width: 100%;
+        right: 0;
+    }
+    .contact-form-container {
+        flex-direction: column-reverse;
+    }
+    .contact-links-container {
+        height: 70px;
+    }
+    .contact-links {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .contact-links a {
+        width: 50px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line {
+        display: none;
+    }
+    .contact-form-container form {
+        align-items: center;
+        width: auto;
+    }
+    .contact-form-container form input {
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+    .template-title h1 {
+        font-size: 36px;
+    }
+    .compositions-title h1 {
+        font-size: 26px;
+    }
+    .compositions-release-info {
+        padding: 20px 0 0 10px;
+    }
+    .compositions-about {
+        width: 95%;
+        padding: 0 0 0 10px;
+    }
+    .compositions-footer {
+        flex-direction: column-reverse;
+    }
+    .compositions-footer-stats {
+        width: 100%;
+    }
+    .tracks-container {
+        height: 640px;
+    }
+    .events-title h1 {
+        font-size: 30px;
+    }
+    .history-date-container span {
+        line-height: 20px;
+    }
+    .history-bottom-text {
+        margin-top: 30px;
+    }
+    .history-date-container hr:nth-child(1), .history-date-container hr:nth-last-child(1) {
+        display: none;
+    }
+    .history-date-container .circle {
+        display: none;
+    }
+    .history-date-container .date-container-date {
+        margin: 0;
+    }
+}

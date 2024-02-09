@@ -1,0 +1,53 @@
+.new-cards {
+    width: 65%;
+    margin: 100px auto 0 auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.new-cards-element {
+    height: 350px;
+    margin: 10px;
+    background-position: center;
+    padding: 30px;
+    position: relative;
+}
+.new-cards-element-release-info-name {
+    color: white;
+}
+.new-cards-element-about {
+    margin-top: 40px;
+}
+.new-cards-element-about h2 {
+    height: 63px;
+}
+.new-cards-element-about span {
+    color: #798285;
+}
+.new-card-number {
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    font-size: 82px;
+    line-height: 143px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    opacity: 0.2;
+}
+.new-cards-element:nth-child(1) {
+    background-image: url("../images/new/card_bg_1.png");
+}
+.new-cards-element:nth-child(2) {
+    background-image: url("../images/new/card_bg_2.png");
+}
+.new-cards-element:nth-child(3) {
+    background-image: url("../images/new/card_bg_3.png");
+}
+.new-cards-element:nth-child(4) {
+    background-image: url("../images/new/card_bg_4.png");
+}
+.new-cards-element:nth-child(5) {
+    background-image: url("../images/new/card_bg_5.png");
+}
+.new-cards-element:nth-child(6) {
+    background-image: url("../images/new/card_bg_6.png");
+}
